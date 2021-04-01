@@ -2,12 +2,24 @@ nav{
     position:fixed;
     top:0;
     display:flex;
-    justify-content: center;
+    justify-content: space-between;
+    width:100%;
+    padding: 10px 0;
+    margin-bottom:200px;
 }
+.links{
+    width:40%;
+    display:flex;
+    justify-content: space-around;
+}
+
 @media only screen and (max-width:600px){
     nav{
         background-color: none;
     }
+}
+header{
+    position:relative;
 }
 
 #header-img{
@@ -15,18 +27,19 @@ nav{
 }
 
 body{
-    width: 90%;
     margin: auto;
-    padding: 20px;
+  
 }
  
 button{
     background-color: white;
     border: none;
-    font-size: 20px;
+    font-size: 24px;
 }
 
-header{
-    display:flex;
-    justify-content: space-between;
+#form{
+    position:relative;
+    margin-top:200px;
+    width:50%;
+    margin:auto;
 }
